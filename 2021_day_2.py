@@ -1,8 +1,8 @@
-import get_input as inp
+import parse
 
-r = inp.get_input()
+p = parse.get_input()
 
-txt = [t.split(' ') for t in r.raw_text]
+txt = [t.split(' ') for t in p.raw_text]
 
 # Part 1
 vertical = [int(val) if typ == 'down' else int(val) * (-1) if typ == 'up' else 0 for typ, val in txt]

@@ -1,7 +1,7 @@
-import get_input as inp
+import parse
 
-r = inp.get_input()
-txt = [eval(i) for i in r.raw_text]
+p = parse.get_input()
+txt = [eval(i) for i in p.raw_text]
 
 #Part 1
 increase = 0

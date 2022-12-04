@@ -1,8 +1,8 @@
-import get_input as inp
+import parse
 import re
 
-t = inp.get_input()
-txt = [l for l in t.raw_text]
+p = parse.get_input()
+txt = [l for l in p.raw_text]
 
 sum_elem = 0
 sum_arr = []

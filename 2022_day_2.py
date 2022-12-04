@@ -1,7 +1,7 @@
-import get_input as inp
+import parse
 
-r = inp.get_input()
-txt = [t.split(' ') for t in r.raw_text]
+p = parse.get_input()
+txt = [t.split(' ') for t in p.raw_text]
 
 # Part 1
 translator = {

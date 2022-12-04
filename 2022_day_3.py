@@ -1,10 +1,10 @@
-import get_input as inp
+import parse
 import re
 
-r = inp.get_input()
+p = parse.get_input()
 
-txt = r.raw_text
-cleaned_txt = [(l[:int(len(l) / 2)], l[int(len(l) / 2):int(len(l) + 1)]) for l in r.raw_text]
+txt = p.raw_text
+cleaned_txt = [(l[:int(len(l) / 2)], l[int(len(l) / 2):int(len(l) + 1)]) for l in p.raw_text]
 
 # Part 1
 def get_shared_characters(str1:str, str2:str)->str:
