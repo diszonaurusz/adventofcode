@@ -1,6 +1,6 @@
 import parse
 
-p = parse.get_input()
+p = parse.get_input(True)
 txt = [eval(i) for i in p.raw_text]
 
 #Part 1

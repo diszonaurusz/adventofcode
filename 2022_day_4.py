@@ -1,6 +1,6 @@
 import parse
 
-p = parse.get_input()
+p = parse.get_input(True)
 txt = p.raw_text
 
 tst = [

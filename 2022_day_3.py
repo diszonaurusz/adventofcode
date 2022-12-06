@@ -1,7 +1,7 @@
 import parse
 import re
 
-p = parse.get_input()
+p = parse.get_input(True)
 
 txt = p.raw_text
 cleaned_txt = [(l[:int(len(l) / 2)], l[int(len(l) / 2):int(len(l) + 1)]) for l in p.raw_text]

@@ -1,6 +1,6 @@
 import parse
 
-p = parse.get_input()
+p = parse.get_input(True)
 txt = [t.split(' ') for t in p.raw_text]
 
 # Part 1

@@ -1,7 +1,7 @@
 import parse
 import re
 
-p = parse.get_input()
+p = parse.get_input(True)
 txt = [l for l in p.raw_text]
 
 sum_elem = 0
